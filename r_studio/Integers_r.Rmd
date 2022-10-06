@@ -1,0 +1,41 @@
+---
+title: "Print Integers"
+author: "Tan Kye Him"
+date: "2022-10-06"
+output: html_document
+---
+
+# Print integers 1 to 10 without a loop
+
+*Using a print function*
+
+```{r}
+print(1:10)
+```
+
+*Using cat function*
+
+```{r}
+cat(1:10)
+```
+
+# Print integers 1 to 10 using a loop
+
+*Using for loop*
+
+```{r}
+for (i in c(1:10)){
+  print(i)
+}
+```
+
+*Using while loop*
+
+```{r}
+j <- 1
+while (j <= 10){
+  print(j)
+  j <- j + 1
+}
+```
+
